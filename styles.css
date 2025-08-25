@@ -1,0 +1,162 @@
+
+
+header{
+   
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    display:flex;
+    margin-left: -10px;
+    background-color: aliceblue;
+    justify-content: space-between;
+ 
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    
+    list-style: none;
+}
+.brand{
+    margin-left: 20px;
+    color: orange;
+}
+
+li{
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    color: blue;
+}
+li:hover{
+    color: blueviolet;
+}
+.profile{
+    width: 60px;
+    height: 20px;
+    background-color: orange;
+    border-radius: 6px;
+    text-align: center;
+}
+/* Container */
+.profilemenu {
+  position: absolute;
+  top: 60px; /* adjust based on header height */
+  right: 20px;
+  width: 180px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  display: none; /* initially hidden */
+  z-index: 1000;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.ul2{
+    display: block;
+   
+}
+.li2{
+    margin: 10px;
+}
+.logout{
+    color: red;
+}
+.logout:hover{
+    color: red;
+}
+
+
+.searchdiv {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* ensures button is at the right */
+    width: 300px; /* adjust as needed */
+    margin: 20px auto; /* center the whole search bar */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 100px;
+    overflow: hidden; /* keeps input and button inside the rounded border */
+}
+
+.searchdiv input {
+    flex: 1; /* take all available space */
+    border: none;
+    padding: 8px 12px;
+    font-size: 16px;
+    outline: none; /* remove default blue outline */
+}
+
+.searchdiv .btnsearch {
+    background: none; /* remove button background */
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #2563eb; /* optional icon color */
+}
+
+.searchdiv .btnsearch:hover {
+    color: #1e40af;
+}
+
+
+ .courses-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .course-card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            width: 300px;
+            padding: 20px;
+            transition: transform 0.2s;
+        }
+
+        .course-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .course-title {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .course-instructor {
+            font-weight: bold;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        .course-duration {
+            font-size: 0.9em;
+            color: #777;
+            margin-bottom: 15px;
+        }
+
+        .course-description {
+            font-size: 1em;
+            color: #666;
+            line-height: 1.4;
+        }
+
+        .enroll-btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 15px;
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.2s;
+        }
+
+        .enroll-btn:hover {
+            background-color: #0056b3;
+        }
